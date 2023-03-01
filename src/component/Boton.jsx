@@ -1,5 +1,5 @@
 import React from 'react';
-
+import '../hojas-de-estilos/Boon.css'
 
 
 function Boton({texto, esBotonDeClic, manejarClic}) {

@@ -3,7 +3,8 @@ import image from './assets/logo1.jpg'
 import './App.css'
 
 import Boton from './component/Boton'
-import '../src/hojas-de-estilos/Boon.css'
+
+import Contador from '../src/component/Contador'
 
 function App() {
   
@@ -31,6 +32,10 @@ function App() {
         />
       </div>
       <div className='contenedor-principal'>
+        <Contador
+          numeroClic='5'
+        />
+
         <Boton
           texto='Clic'
           esBotonDeClic={true}
